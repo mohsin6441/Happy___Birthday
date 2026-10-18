@@ -1,0 +1,178 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Happy Birthday ❤️</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+<!-- Background Birthday Music -->
+
+<audio id="birthdayMusic" autoplay loop playsinline>
+    <source src="song.mp4" type="audio/mpeg">
+</audio>
+
+
+
+<button id="musicButton" class="music-button" onclick="toggleMusic()">
+    🎵 Play Music
+</button>
+
+    <div class="hearts"></div>
+
+    <section class="hero">
+
+        <p class="top-text">✨ A SPECIAL DAY FOR SOMEONE SPECIAL ✨</p>
+
+        <div class="cake">
+            <div class="flame"></div>
+            <div class="candle"></div>
+            <div class="cake-top"></div>
+            <div class="cake-middle"></div>
+            <div class="cake-bottom"></div>
+        </div>
+
+        <h1>Happy Birthday</h1>
+
+        <h2 id="name">Beautiful Soul ❤️</h2>
+
+        <p class="description">
+            Today is your special day. May your life be filled
+            with love, happiness, beautiful memories and endless smiles.
+        </p>
+
+        <button onclick="openSurprise()">
+            Open Your Surprise 🎁
+        </button>
+
+        <p class="scroll">SCROLL DOWN FOR YOUR SURPRISE ↓</p>
+
+    </section>
+
+
+    <section class="message-section">
+
+        <p class="label">A MESSAGE FROM THE HEART 💌</p>
+
+        <h2>You Are <span>Special</span></h2>
+
+        <div class="message-card">
+
+            <div class="envelope">💌</div>
+
+            <p>
+                On your special day, I want you to know how amazing you are.
+                May every moment bring you happiness, every dream come true,
+                and every new day give you another reason to smile.
+                Always keep shining like the beautiful person you are. ❤️
+            </p>
+
+            <h3>With Love, ❤️</h3>
+
+            <h4 id="sender">Someone Who Cares</h4>
+
+        </div>
+
+    </section>
+
+
+    <section class="gallery-section">
+
+        <p class="label">YOUR BEAUTIFUL MEMORIES 📸</p>
+
+        <h2>Little Moments, <span>Big Memories</span></h2>
+
+      
+
+    </section>
+    <section class="photo-gallery">
+    <h2>A BEAUTIFUL SOUL, A BEAUTIFUL SMILE ❤️</h2>
+
+
+<div class="gallery-container">
+    <img src="photo1.jpeg" alt="Birthday Memory">
+    <img src="photo2.jpeg" alt="Beautiful Memory">
+    <img src="photo3.jpeg" alt="Special Memory">
+</div>
+
+
+    </div>
+
+</section>
+</section>
+<section class="birthday-video-section">
+
+    <p class="label">A SPECIAL VIDEO FOR YOU 🎬</p>
+
+    <h2>🐱 YOUR BIRTHDAY DELIVERY IS HERE! 🎂</h2>
+
+    <div class="birthday-video-box">
+
+        <video controls playsinline preload="metadata">
+            <source src="BIRTHDAY GIRL.mp4" type="video/mp4">
+            Your browser does not support video playback.
+        </video>
+
+    </div>
+
+    <p class="video-caption">
+        🎀 A little video filled with beautiful memories 🎀
+    </p>
+
+</section>
+
+    <section class="final-section">
+
+        <div class="heart">❤️</div>
+
+        <h2>Make A Wish ✨</h2>
+
+        <p>
+            May all your dreams come true.
+            You deserve all the happiness in the world.
+        </p>
+
+        <button onclick="celebrate()">
+            Celebrate Your Day 🎉
+        </button>
+
+        <footer>
+            Made with ❤️ for your special day
+        </footer>
+
+    </section>
+
+
+    <div class="popup" id="popup">
+
+        <div class="popup-card">
+
+            <button class="close" onclick="closeSurprise()">×</button>
+
+            <div class="gift">🎁</div>
+
+            <h2>Happy Birthday! ❤️</h2>
+
+            <p>
+                Today is all about YOU! 🥹❤️
+                May your life always be full of love,
+                laughter and beautiful surprises.
+            </p>
+
+            <h3>You deserve the world! ✨</h3>
+
+            <button onclick="celebrate()">
+                Let's Celebrate 🎉
+            </button>
+
+        </div>
+
+    </div>
+
+    <script src="script.js"></script>
+
+</body>
+</html>
